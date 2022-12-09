@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
  * main - prints alpha in lower case
@@ -7,15 +7,12 @@
  */
 int main(void)
 {
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
+	char lc;
 
-	for (i = 'a'; i <= 'z'; i++);
+	for (lc = 'a'; lc <= 'z'; lc++);
 	{
-		putchar(alp[i]);
+		putchar(lc);
 	}
-	{
 	putchar('\n');
-	}
 	return (0);
 }

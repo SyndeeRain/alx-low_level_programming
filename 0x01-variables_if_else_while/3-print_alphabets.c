@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - prints alpha in lower and upper case
  * Return: Always 0 (Success)
@@ -15,6 +14,5 @@ int main(void)
 		putchar(ch);
 
 	putchar('\n');
-
 	return (0);
 }
