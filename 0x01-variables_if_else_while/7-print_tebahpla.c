@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints reversed alphabet.
+ * main - prints reversed alphabet
  *
  * Return: Always 0 (Success)
  */
