@@ -1,13 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - prints numbers between 012 to 789.
+ * main - prints numbers between 012 t0 789
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int i, e, g;
+
 	i = 48;
 	e = 48;
 	g = 48;
@@ -20,7 +21,7 @@ int main(void)
 			g = 48;
 			while (g < 58)
 			{
-				if (e != i && e != g && e < i && e < g)
+				if (e != i && e != g && i != g && e < i && i < g)
 				{
 					putchar(e);
 					putchar(i);
