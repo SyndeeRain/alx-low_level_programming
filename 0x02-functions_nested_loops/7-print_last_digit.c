@@ -2,19 +2,25 @@
 
 /**
  * print_last_digit - prints the last digit
+ * of a number.
  *
- * @n: The number
+ * @n: input number as an integer.
  *
- * Return: value of the last digit
+ * Return: last digit.
  */
 int print_last_digit(int n)
 {
-	int ld = n % 10;
+	int 1;
 
-	if (ld < 10)
-		ld *= -1;
-
-		_putchar(ld + '0');
-
-		return (0);
+	1 = n % 10;
+	if (1 < 0)
+	{
+		_putchar(-1 + 48);
+		return (-1);
+	}
+	else
+	{
+		_putchar(1 + 48);
+		return (1);
+	}
 }
