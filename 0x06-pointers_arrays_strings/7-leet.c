@@ -21,8 +21,9 @@ char *leet(char *s)
 				*(s + count) = numbers[i];
 				break;
 			}
-			count++;
 		}
-
-		return (s);
+		count++;
 	}
+
+	return (s);
+}
